@@ -47,9 +47,9 @@ Citizen.CreateThread(function()
 	local peds  = {}
 
 	SetMaxWantedLevel(0)
-	SetPoliceIgnorePlayer(GetPlayerPed(), true)
-	SetEveryoneIgnorePlayer(GetPlayerPed(), true)
-	SetPlayerCanBeHassledByGangs(GetPlayerPed(), false)
+	SetPoliceIgnorePlayer(GetPlayerPed(), false)
+	SetEveryoneIgnorePlayer(GetPlayerPed(), false)
+	SetPlayerCanBeHassledByGangs(GetPlayerPed(), true)
 	SetIgnoreLowPriorityShockingEvents(GetPlayerPed(), true)
 
 	while true do		
